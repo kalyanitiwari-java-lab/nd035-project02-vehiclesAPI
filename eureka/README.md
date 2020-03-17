@@ -12,6 +12,4 @@ the server of its existence.
 2. java -jar target/eureka-0.0.1-SNAPSHOT.jar
 
 ## Usage
-You can check the Eureka server running at http://localhost:8761/ once the web application is running
-
-## License
+You can check the Eureka server running at http://localhost:8761/ once the web application is running.
