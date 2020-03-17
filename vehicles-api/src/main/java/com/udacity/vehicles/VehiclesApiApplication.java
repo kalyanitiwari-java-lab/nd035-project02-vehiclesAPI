@@ -44,16 +44,6 @@ public class VehiclesApiApplication {
         };
     }
 
-    /*@Bean
-    CommandLineRunner initCarDatabase(CarRepository repository) {
-        Car car = new Car();
-        car.setCondition(Condition.NEW);
-        return args -> {
-            repository.save(car);
-            System.out.println("Car Id = " + car.getId());
-        };
-    }*/
-
     @Bean
     public ModelMapper modelMapper() {
         return new ModelMapper();
