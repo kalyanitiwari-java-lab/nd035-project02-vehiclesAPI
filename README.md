@@ -10,6 +10,7 @@ along with converting the existing Pricing Service API to a microservice registe
 You can either use these in separate windows in your favorite IDE, or use the below commands:
 
 $ mvn clean package (run this in each directory containing the separate applications)
+
 1.Boogle Maps: 
 ```
 $ java -jar target/boogle-maps-0.0.1-SNAPSHOT.jar
