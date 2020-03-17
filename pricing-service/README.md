@@ -12,6 +12,7 @@ input. In this project, you will convert it to a microservice.
 ## Instructions
 
 #### Run the code
+To properly run this application you need to start Eureka server application first
 
 To run this service you execute:
 
