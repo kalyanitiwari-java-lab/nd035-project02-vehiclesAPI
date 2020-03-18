@@ -20,6 +20,7 @@ $ java -jar target/boogle-maps-0.0.1-SNAPSHOT.jar
 $ curl http://localhost:9191/maps\?lat\=20.0\&lon\=30.0
 ```
 3.Pricing Service: 
+
   3.a Start Eureka Server before you start Pricing Service
   
     ```
