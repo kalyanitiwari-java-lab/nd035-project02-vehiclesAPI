@@ -25,14 +25,15 @@ $ curl http://localhost:9191/maps\?lat\=20.0\&lon\=30.0
     ```
     $ java -jar target/eureka-0.0.1-SNAPSHOT.jar
     ```
-    Eureka Server should be available at:
-    http://localhost:8761/
+  Eureka Server should be available at: http://localhost:8761/
+  
   3.b Start Pricing Service
     ```
     $ java -jar target/pricing-service-0.0.1-SNAPSHOT.jar
     ```
     Once the Pricing Service is up and running, you should be able to find it's instance registered in the Eureka registry at
     above given link.
+    
 4.Vehicles API: 
 ```
 $ java -jar target/vehicles-api-0.0.1-SNAPSHOT.jar
